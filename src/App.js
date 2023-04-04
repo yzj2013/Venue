@@ -6,6 +6,8 @@ import Footer from './components/header_footer/Footer';
 
 import Featured from './components/featured';
 
+import VenueNfo from './components/venueNfo';
+
 const App = () => {
   return (
     <div className='App'>
@@ -13,6 +15,10 @@ const App = () => {
 
       <>
         <Featured></Featured>
+      </>
+
+      <>
+        <VenueNfo></VenueNfo>
       </>
 
       <div style={{ backgroundColor: 'red', height: '800px' }}></div>
