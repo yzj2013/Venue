@@ -10,6 +10,8 @@ import VenueNfo from './components/venueNfo';
 
 import Highlights from './components/highlights';
 
+import Pricing from './components/pricing';
+
 const App = () => {
   return (
     <div className='App'>
@@ -25,6 +27,10 @@ const App = () => {
 
       <>
         <Highlights></Highlights>
+      </>
+
+      <>
+        <Pricing></Pricing>
       </>
 
       <div style={{ backgroundColor: 'red', height: '800px' }}></div>
