@@ -39,7 +39,7 @@ const TimeUntil = () => {
   }, []);
 
   useEffect(() => {
-    setInterval(() => getTimeUntil('Apr, 07, 2023, 00:00:01'), 1000);
+    setInterval(() => getTimeUntil('Nov, 07, 2023, 00:00:01'), 1000);
   }, [getTimeUntil]);
 
   return (
